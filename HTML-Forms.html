@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML-Forms</title>
+	<meta charset="utf-8">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+</head>
+<body>
+	<div style="width: 50%; max-width: 400px;margin-top: 10px;margin-left: auto;margin-right: auto; padding: 10px;">
+	<h1> HTML Forms </h1>
+		<form name="myForm" method="get" action="">
+			  <div class="form-row">
+				  	<div class="form-group col-md-6">
+				  		<label for="Email">Email address: </label>
+					    <input type="email" id="Email" required="true" name="" value="">
+				  	</div>
+			  </div>
+			  <br>
+			  <div class="form-row">
+				  	<div class="form-group col-md-6">
+					    <label for="Password">Password: </label>
+					    <input type="password" id="Password" required="true" name="" value="">
+				  </div>
+			  </div>
+			  <br>
+			  <div class="form-row">
+				  <div class="form-group col-md-6">
+				  		<label for="tinhThanh">Province:</label>
+				  		<select id="tinhThanh" class="form-control">
+				  			<option value="1" selected="selected"> Binh Duong </option>
+				  			<option value="2"> Binh Phuoc </option>
+				  			<option value="3"> Vung Tau </option>
+				  		</select>
+				  </div>				  	  		
+			  </div>
+			  <br>	
+			  <div class="form-row">
+			  	<div class="form-group col-md-6"></div>
+			  	<label for="tuoi">Age:</label>
+			  	<input type="number" id="tuoi" min="0" max="100" size="50" name="">
+			  </div>				  
+			  <div class="form-row">
+				  <div class="form-group col-md-6">
+				  		<label for="Example">Example Textarea: </label>
+				  		<textarea id="Example" name=""></textarea>	
+				  </div>	  		
+			  </div>
+			  <br>
+			  <div class="form-row">
+				  <div class="form-group col-md-6">
+				  		<fieldset>
+				  			<legend>Gender</legend>
+							<input type="radio" name="Nu"> Female <br>
+							<input type="radio" name="Nam"> Male<br>
+							<input type="radio" name="Khac"> Others
+				  		</fieldset>
+				  </div>	  		
+			  </div>
+			  <br>
+			  <div class="form-row">
+				  <div class="form-group col-md-6">
+				  		<fieldset>
+				  			<legend>Interests</legend>
+							<input type="checkbox" name="So Thich" value="choi the thao"> Playing Sport <br>
+							<input type="checkbox" name="So Thich" value="du lich"> Traveling
+				  		</fieldset>
+				  </div>	  		
+			  </div>
+			  <br>
+			  
+			  <div style="text-align: center">
+                <br>
+                <input type="reset" name="resetBtn" value="Reset">
+				<input type="submit" name="" value="Submit">
+              </div>
+		</form>
+<br>
+		<div class="form-row">
+  			<iframe width="560" height="315" src="https://www.youtube.com/embed/yjmp8CoZBIo" frameborder="yes" scrolling="yes" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</body>
+</html>
